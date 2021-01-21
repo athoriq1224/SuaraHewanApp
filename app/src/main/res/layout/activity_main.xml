@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="#F55A5A"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button_sound1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:onClick="playSound"
+        android:text="AYAM"
+        android:backgroundTint="#F1D05B"/>
+    <Button
+        android:id="@+id/button_sound2"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:onClick="playSound"
+        android:text="GAJAH"
+        android:backgroundTint="#F1D05B"/>
+    <Button
+        android:id="@+id/button_sound3"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:onClick="playSound"
+        android:text="SINGA"
+        android:backgroundTint="#F1D05B"/>
+    <Button
+        android:id="@+id/button_sound4"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:onClick="playSound"
+        android:text="KAMBING"
+        android:backgroundTint="#F1D05B"/>
+    <Button
+        android:id="@+id/button_sound5"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:onClick="playSound"
+        android:text="MONYET"
+        android:backgroundTint="#F1D05B"/>
+    <Button
+        android:id="@+id/button_sound6"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:onClick="playSound"
+        android:text="SAPI "
+        android:backgroundTint="#F1D05B"/>
+
+
+
+</LinearLayout>
